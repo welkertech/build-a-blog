@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #C1C1C1;
+  background-image:url(background.png)
+  text-align: left;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #F1F5F8;
+}
+.error{
+  color:red;
+}
+.header{
+  margin:0 auto;
+  padding: 3px;
+  width: 600px;
+  background: #555555;
+
+}
+.main{
+  padding: 8px;
+
+
+}
+.pages{
+  margin:0 auto;
+  padding: 3px;
+  width: 600px;
+  background: #555555;
+
+}
+
+.blogEntry{
+
+  width:600px;
+  background: #ffffff;
+  margin: 5px auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #777777;
+
+}
+.blogBody{
+
+  margin: 4px;
+  color: #555555;
+}
+
+.blogDate{
+
+  color: #555555;
+  font-size: 0.8em;
+  background: #dddddd;
+  padding: 2px;
+}
+.blogTitle{
+  color:#222222;
+  padding: 2px;
+  font-size: 2em;
+  background: #dddddd;
+}
+
+
+
+.blogTitle a:link { color: #222222; text-decoration: none;}
+.blogTitle a:visited { color: #222222; text-decoration: none;}
+.blogTitle a:hover { color: #222222; text-decoration: underline;}
+.blogTitle a:active { color: #222222;text-decoration: none;}
+
+.header a:link { color: #eeeeee; text-decoration: none;}
+.header a:visited { color: #eeeeee; text-decoration: none;}
+.header a:hover { color: #eeeeee; text-decoration: underline;}
+.header a:active { color: #eeeeee;text-decoration: none;}
+
+.pages a:link { color: #eeeeee; text-decoration: none;}
+.pages a:visited { color: #eeeeee; text-decoration: none;}
+.pages a:hover { color: #eeeeee; text-decoration: underline;}
+.pages a:active { color: #eeeeee;text-decoration: none;}

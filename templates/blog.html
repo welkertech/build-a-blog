@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for entries in blogEntries %}
+  <div class="blogEntry">
+    <div class="blogTitle">
+            <a href="/Blog/{{entries.key().id()}}">{{ entries.blogTitle }} </a>
+    </div>
+    <div class ="blogDate">
+            {{ entries.created}} 
+    </div>
+    <div class="blogBody">
+            {{ entries.blogBody}}
+    </div>
+  </div>
+{% endfor %}
+
+    <div class="pages">
+
+    {% if previous %}
+    <a href ="?page={{previous}}"> Back </a>
+    {% endif %}
+
+    {% if nextpage %}
+    <a href ="?page={{nextpage}}"> Next </a>
+    {% endif %}
+  </div>
+
+
+{% endblock %}
